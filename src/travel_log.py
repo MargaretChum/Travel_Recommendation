@@ -3,7 +3,7 @@ import pandas as pd
 # Create a sample travel log
 def create_travel_log():
     data = {
-        'user_id': [1, 1, 2],
+        'user_id': [1, 2, 3],
         'destination': ['Switzerland', 'Bangkok', 'Japan'],
         'activity': ['Skiing', 'Street Food', 'Hiking'],
         'environment': ['Snowy Mountains', 'Bustling Streets', 'Mountain Views'],
